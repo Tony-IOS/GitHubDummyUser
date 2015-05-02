@@ -14,6 +14,7 @@
 		EA808D4D1AF5212600E93D49 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA808D4C1AF5212600E93D49 /* Images.xcassets */; };
 		EA808D501AF5212600E93D49 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA808D4E1AF5212600E93D49 /* LaunchScreen.xib */; };
 		EA808D5C1AF5212600E93D49 /* GitHubDummyUserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA808D5B1AF5212600E93D49 /* GitHubDummyUserTests.m */; };
+		EA808D671AF5240C00E93D49 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = EA808D661AF5240C00E93D49 /* Animal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		EA808D551AF5212600E93D49 /* GitHubDummyUserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubDummyUserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA808D5A1AF5212600E93D49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA808D5B1AF5212600E93D49 /* GitHubDummyUserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitHubDummyUserTests.m; sourceTree = "<group>"; };
+		EA808D651AF5240C00E93D49 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		EA808D661AF5240C00E93D49 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		EA808D331AF5212600E93D49 = {
 			isa = PBXGroup;
 			children = (
+				EA808D651AF5240C00E93D49 /* Animal.h */,
+				EA808D661AF5240C00E93D49 /* Animal.m */,
 				EA808D3E1AF5212600E93D49 /* GitHubDummyUser */,
 				EA808D581AF5212600E93D49 /* GitHubDummyUserTests */,
 				EA808D3D1AF5212600E93D49 /* Products */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA808D481AF5212600E93D49 /* ViewController.m in Sources */,
+				EA808D671AF5240C00E93D49 /* Animal.m in Sources */,
 				EA808D451AF5212600E93D49 /* AppDelegate.m in Sources */,
 				EA808D421AF5212600E93D49 /* main.m in Sources */,
 			);
@@ -416,6 +422,7 @@
 				EA808D611AF5212600E93D49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA808D621AF5212600E93D49 /* Build configuration list for PBXNativeTarget "GitHubDummyUserTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				EA808D641AF5212600E93D49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
